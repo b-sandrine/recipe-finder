@@ -1,0 +1,42 @@
+/* About Page Custom Styles */
+
+.about-section {
+  max-width: 700px;
+  margin: 2.5rem auto;
+  background: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(34, 139, 34, 0.08);
+  padding: 2.5rem 2rem;
+  color: var(--green-dark);
+}
+
+.about-section h3 {
+  color: var(--green-primary);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.about-section p, .about-section ul {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.about-section ul {
+  padding-left: 1.5rem;
+}
+
+.about-section li {
+  margin-bottom: 0.5rem;
+}
+
+.about-section a {
+  color: var(--green-primary);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.about-section a:hover {
+  color: var(--green-dark);
+} 

@@ -1,0 +1,85 @@
+/* Contact Page Custom Styles */
+
+.contact-section {
+  max-width: 700px;
+  margin: 2.5rem auto;
+  background: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(34, 139, 34, 0.08);
+  padding: 2.5rem 2rem;
+  color: var(--green-dark);
+}
+
+.contact-section h3 {
+  color: var(--green-primary);
+  margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: var(--green-dark);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.6rem;
+  border: 1px solid var(--green-secondary);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: var(--color-light-gray);
+  color: var(--green-dark);
+  resize: vertical;
+}
+
+.contact-form button {
+  background: var(--green-primary);
+  color: var(--color-white);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  align-self: flex-start;
+}
+
+.contact-form button:hover {
+  background: var(--green-dark);
+}
+
+.contact-info {
+  margin-top: 1.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--green-secondary);
+}
+
+.contact-info h4 {
+  margin-bottom: 0.5rem;
+  color: var(--green-primary);
+}
+
+.contact-info a {
+  color: var(--green-primary);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.contact-info a:hover {
+  color: var(--green-dark);
+} 
