@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="index">
+    <div class="header-layer">
+      <nav class="header-nav">
+        <div class="nav-brand">
+          <h1>Recipe Finder</h1>
+        </div>
+        <div class="nav-links">
+          <a href="#" class="nav-link active">Home</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Contact</a>
+        </div>
+      </nav>
+      <div class="header-content">
+        <h1>Recipe Finder</h1>
+        <p>Find delicious recipes by ingredient, cuisine, and diet!</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="search-section">
+      <form id="search-form">
+        <div class="form-field">
+          <label for="ingredients">Ingredients:</label>
+          <input type="text" id="ingredients" name="ingredients" placeholder="e.g. chicken, rice" required>
+        </div>
+        <div class="form-field">
+          <label for="cuisine">Cuisine:</label>
+          <select id="cuisine" name="cuisine">
+            <option value="">Any</option>
+            <option value="italian">Italian</option>
+            <option value="mexican">Mexican</option>
+            <option value="indian">Indian</option>
+            <option value="chinese">Chinese</option>
+            <option value="french">French</option>
+            <!-- Add more cuisines as needed -->
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="diet">Diet:</label>
+          <select id="diet" name="diet">
+            <option value="">Any</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="vegan">Vegan</option>
+            <option value="gluten free">Gluten Free</option>
+            <option value="ketogenic">Ketogenic</option>
+            <!-- Add more diets as needed -->
+          </select>
+        </div>
+
+        <button type="submit">Search Recipes</button>
+      </form>
+    </section>
+    <section id="results-section">
+      <h2>Results</h2>
+      <div id="results"></div>
+      <div id="pagination"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Powered by Spoonacular API</p>
+  </footer>
+  <script src="./script/app.js"></script>
+</body>
+
+</html>
