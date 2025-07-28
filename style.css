@@ -36,6 +36,27 @@ header {
   position: relative;
 }
 
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.5) 30%,
+    rgba(0, 0, 0, 0.7) 70%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  z-index: 1;
+  pointer-events: none;
+  backdrop-filter: blur(2px);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
 .header-layer {
   height: 100%;
   display: flex;
@@ -49,6 +70,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 0;
+  position: relative;
+  z-index: 2;
 }
 
 .nav-brand h1 {
@@ -96,7 +119,11 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  z-index: 2;
 }
+
+
 
 .header-content h1 {
   margin: 0 0 0.5rem 0;
