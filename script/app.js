@@ -64,6 +64,7 @@ function displayResults(recipes) {
     resultsDiv.innerHTML = '<p>No recipes found. Try different ingredients or filters.</p>';
     return;
   }
+  console.log('Sample recipe', recipes)
   resultsDiv.innerHTML = recipes.map(recipe => `
     <div class="recipe-card">
       <img src="${recipe.image}" alt="${recipe.title}" />
