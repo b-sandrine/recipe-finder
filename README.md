@@ -40,8 +40,5 @@ This project uses the [Spoonacular API](https://spoonacular.com/food-api) to fet
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements or bug fixes.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
 ## Contact
-For questions or feedback, please contact [your-email@example.com].
+For questions or feedback, please contact [sanrdushimimana@gmail.com] or [s.dushimima2@alustudent.com].
