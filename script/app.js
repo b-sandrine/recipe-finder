@@ -1,4 +1,4 @@
-const API_KEY = 'a25b5cfc6153433585db938cbf2f581b';
+import { API_KEY } from '../apiKey.js';
 const BASE_URL = 'https://api.spoonacular.com/recipes/complexSearch';
 
 const form = document.getElementById('search-form');

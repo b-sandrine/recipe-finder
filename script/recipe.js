@@ -1,7 +1,4 @@
-// Recipe Details Page
-// NOTE: Replace 'YOUR_SPOONACULAR_API_KEY' with your actual API key. Store it securely in production!
-
-const API_KEY = 'a25b5cfc6153433585db938cbf2f581b';
+import { API_KEY } from "../apiKey";
 
 function getRecipeIdFromUrl() {
   const params = new URLSearchParams(window.location.search);

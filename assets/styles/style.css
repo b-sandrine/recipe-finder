@@ -27,7 +27,7 @@ header.recipe {
 }
 
 header {
-  background-image: url('./assets/photo-1555939594-58d7cb561ad1.avif');
+  background-image: url('/assets/images/photo-1555939594-58d7cb561ad1.avif');
   background-repeat: repeat;
   color: var(--color-white);
   height: 15rem;
