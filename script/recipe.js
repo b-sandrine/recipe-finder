@@ -1,4 +1,5 @@
-import { API_KEY } from "../apiKey";
+
+const API_KEY = 'a25b5cfc6153433585db938cbf2f581b';
 
 function getRecipeIdFromUrl() {
   const params = new URLSearchParams(window.location.search);
