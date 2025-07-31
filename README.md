@@ -10,7 +10,10 @@ A web application that allows users to search for and discover recipes using the
 - About and Contact pages for additional information
 
 ## Screenshots
-<!-- Add screenshots here if available -->
+<img width="949" height="444" alt="image" src="https://github.com/user-attachments/assets/67425a3f-da59-471c-89cc-65bd3dfddd3c" />
+<img width="907" height="431" alt="image" src="https://github.com/user-attachments/assets/fc9760a8-86d6-4fbe-9ad4-5ead6916d20d" />
+<img width="947" height="448" alt="image" src="https://github.com/user-attachments/assets/0cff6df3-4bf3-4770-a1d6-e5dd65e7cab9" />
+<img width="923" height="418" alt="image" src="https://github.com/user-attachments/assets/7dc1ad92-09b1-47bb-a802-4449f2eb6673" />
 
 ## Installation
 1. Clone this repository:
