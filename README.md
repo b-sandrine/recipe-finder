@@ -18,16 +18,16 @@ A web application that allows users to search for and discover recipes using the
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/web-infrastructure.git
+   git clone https://github.com/b-sandrine/recipe-finder
    ```
 2. Navigate to the project directory:
    ```bash
-   cd web-infrastructure
+   cd recipe-finder
    ```
 3. Open `index.html` in your web browser to start using the app.
 
 ## Usage
-- Enter a search term in the search bar to find recipes.
+- Enter a search term(s) in the search bar to find recipes. Comma separated vales.
 - Click on a recipe to view its details.
 - Visit the About and Contact pages for more information or to get in touch.
 
